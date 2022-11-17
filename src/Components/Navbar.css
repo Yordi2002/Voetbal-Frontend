@@ -1,0 +1,8 @@
+.navbar{
+    background-color: #028a00 !important;
+}
+a.nav-link{
+    color: rgb(255, 255, 255) !important;
+    font-weight: bold;
+    font-size: 20px;
+}

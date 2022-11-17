@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(https://wallpaperaccess.com/full/1767837.jpg);
+    background-size: cover;
+}
+.Wedstrijden h1{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.Uitslagen h1{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.Stand h1{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+table{
+    position: absolute;
+    padding: 30px;
+    top: 50%;
+    left: 50%;
+    background: rgba(0,0,0,0.4);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
