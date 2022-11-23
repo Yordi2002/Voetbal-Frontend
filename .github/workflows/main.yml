@@ -14,6 +14,6 @@ jobs:
       - name: Build/push docker image
         working-directory: ./Voetbal-Frontend
         run: |
-          echo "${{ secrets.dockerpw }}" | docker login -u "yordi2002" --password-voetbalfront
-          docker image build -t yordi2002/app .
-          docker push yordi2002/app
+          echo "${{ secrets.dockerpw }}" | docker login -u "Yordi2002" --password-voetbalfront
+          docker image build -t Yordi2002/app .
+          docker push Yordi2002/app
