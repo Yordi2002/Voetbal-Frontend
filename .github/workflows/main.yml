@@ -1,0 +1,19 @@
+name: Frontend applicatie
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Build/push docker image
+        working-directory: ./Voetbal-Frontend
+        run: |
+          echo "${{ secrets.dockerpw }}" | docker login -u "yordi2002" --password-voetbalfront
+          docker image build -t yordi2002/app .
+          docker push yordi2002/app
