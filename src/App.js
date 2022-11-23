@@ -9,6 +9,7 @@ import Teams from "./Teams";
 import Gebruiker from "./Gebruiker";
 import Speler from "./Speler";
 import Stadion from "./Stadion";
+import Login from "./Login";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/Gebruiker" element={<Gebruiker />} />
           <Route path="/Speler" element={<Speler />} />
           <Route path="/Stadion" element={<Stadion />} />
+          <Route path="/Login" element={<Login />} />
         </Routes>
       </BrowserRouter>
     </div>
