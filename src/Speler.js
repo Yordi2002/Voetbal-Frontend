@@ -25,10 +25,10 @@ function Speler() {
           {speler.map((item) => {
             return (
               <tr>
-                <td>{JSON.stringify(item.TeamNaam)}</td>
-                <td>{JSON.stringify(item.Naam)}</td>
-                <td>{JSON.stringify(item.Land)}</td>
-                <td>{JSON.stringify(item.Positie)}</td>
+                <td>{item.TeamNaam}</td>
+                <td>{item.Naam}</td>
+                <td>{item.Land}</td>
+                <td>{item.Positie}</td>
               </tr>
             );
           })}

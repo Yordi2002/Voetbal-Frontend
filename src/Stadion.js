@@ -24,9 +24,9 @@ function Stadion() {
           {Stadion.map((item) => {
             return (
               <tr>
-                <td>{JSON.stringify(item.StadionNaam)}</td>
-                <td>{JSON.stringify(item.Locatie)}</td>
-                <td>{JSON.stringify(item.Capaciteit)}</td>
+                <td>{item.StadionNaam}</td>
+                <td>{item.Locatie}</td>
+                <td>{item.Capaciteit}</td>
               </tr>
             );
           })}

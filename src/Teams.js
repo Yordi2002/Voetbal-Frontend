@@ -15,7 +15,7 @@ function Teams() {
         <form class="Teams">
           <h1>Teams</h1>
         </form>
-        <table className="Teamtable">
+        <table className="Teamstable">
           <tr>
             <th>TeamNaam</th>
             <th>Thuis Stadion</th>
@@ -25,10 +25,10 @@ function Teams() {
           {Teams.map((item) => {
             return (
               <tr>
-                <td>{JSON.stringify(item.TeamNaam)}</td>
-                <td>{JSON.stringify(item.StadionNaam)}</td>
-                <td>{JSON.stringify(item.ThuisShirt)}</td>
-                <td>{JSON.stringify(item.UitShirt)}</td>
+                <td>{item.TeamNaam}</td>
+                <td>{item.StadionNaam}</td>
+                <td>{item.ThuisShirt}</td>
+                <td>{item.UitShirt}</td>
               </tr>
             );
           })}
