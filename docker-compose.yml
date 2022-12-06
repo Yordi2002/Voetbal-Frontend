@@ -8,5 +8,5 @@ services:
     ports:
       - 3000:3000
     image: app:react
-    container_name: VOETBAL-FRONTEND_container
+    container_name: voetbal-frontend_container
     command: npm start
