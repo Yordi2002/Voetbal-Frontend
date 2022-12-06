@@ -11,7 +11,7 @@ function Uitslagen() {
         </form>
         <table>
           <tr>
-            <th>Thuisteam</th>
+            <th>Thuisteam </th>
             <th></th>
             <th>Uitteam</th>
             <th>Uitslag</th>
