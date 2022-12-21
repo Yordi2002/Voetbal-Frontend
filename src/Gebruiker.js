@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import Navbar from "./Components/Navbar";
 import "./Gebruiker.css";
 import "./Login.jsx";
@@ -16,10 +15,6 @@ function validate() {
 }
 
 function Gebruiker() {
-  const [Gebruiker, setGebruiker] = useState([]);
-  fetch("https://localhost:7247/api/User")
-    .then((response) => response.json())
-    .then((json) => setGebruiker(json));
   return (
     <div>
       <Navbar />
