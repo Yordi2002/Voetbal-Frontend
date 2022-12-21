@@ -29,7 +29,8 @@ body{
     display: block;
     margin: 20px auto;
     text-align: center;
-    border: 3px solid #028a00;
+    border-color: #028a00;
+    border: 4px;
     padding: 14px 10px;
     width: 220px;
     outline: none;
@@ -48,7 +49,8 @@ body{
     display: block;
     margin: 20px auto;
     text-align: center;
-    border: 4px solid #028a00;
+    border-color: #028a00;
+    border: 4px;
     padding: 14px 35px;
     outline: none;
     color: white;
