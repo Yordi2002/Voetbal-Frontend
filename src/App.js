@@ -10,6 +10,7 @@ import Gebruiker from "./Gebruiker";
 import Speler from "./Speler";
 import Stadion from "./Stadion";
 import Login from "./Login";
+import AddSpeler from "./AddSpeler";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/Speler" element={<Speler />} />
           <Route path="/Stadion" element={<Stadion />} />
           <Route path="/Login" element={<Login />} />
+          <Route path="/AddSpeler" element={<AddSpeler />} />
         </Routes>
       </BrowserRouter>
     </div>

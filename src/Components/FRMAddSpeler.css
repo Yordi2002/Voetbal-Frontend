@@ -1,0 +1,28 @@
+.AddSpeler h1{
+    font-size: 35px;
+    text-align: center;
+    background-color: transparent !important;
+    color: black;
+}
+
+.AddSpeler{
+    background-color: transparent !important;
+    color: black;
+}
+
+.AddButton{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 17px;
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+    background-color: black;
+    color: green !important;
+    border: none;
+    border-radius: 5px;
+}
+.AddButton:hover {
+    color: black !important; 
+    background-color: green; 
+}
