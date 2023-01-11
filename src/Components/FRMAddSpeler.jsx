@@ -9,11 +9,14 @@ const FRMAddSpeler = () => {
   const paperStyle={padding: '50px 20px', width:450, margin:"20px auto"}
   const[naam, setNaam]=useState('');
   const[land, setLand]=useState('');
-  const[[positie], setPositie]=useState('');
+  const[positie, setPositie]=useState('');
 
   const handleClick=(e)=>{
     e.preventDefault()
-    const speler={naam, land, positie}
+    const spelerID = 0;
+    const teamID = 0;
+    const teamNaam = "string";
+    const speler={spelerID, teamID, naam, land, positie, teamNaam}
     console.log(speler)
     fetch('https://localhost:7247/api/Speler',{
       method:"POST",
