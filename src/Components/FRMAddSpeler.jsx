@@ -41,21 +41,21 @@ const FRMAddSpeler = () => {
       noValidate
       autoComplete="off"
     >
-      <TextField id="standard-basic" label="Naam" variant="standard" fullWidth 
+      <TextField id="standard-basic" label="Naam" variant="standard" name="Naam" fullWidth 
       value={naam}
       onChange={(e)=>setNaam(e.target.value)}
       />
-      <TextField id="standard-basic" label="Land" variant="standard" fullWidth 
+      <TextField id="standard-basic" label="Land" variant="standard" name="Land" fullWidth 
       value={land}
       onChange={(e)=>setLand(e.target.value)}
       />
-      <TextField id="standard-basic" label="Positie" variant="standard" fullWidth 
+      <TextField id="standard-basic" label="Positie" variant="standard" name="Positie" fullWidth 
       value={positie}
       onChange={(e)=>setPositie(e.target.value)}
       />
       
     <Button 
-      class="AddButton" variant="contained" onClick={handleClick}>Sla gegevens op
+      class="AddButton" variant="contained" name="button" onClick={handleClick}>Sla gegevens op
     </Button>
     </Box>
     </Paper>
